@@ -1,15 +1,14 @@
 function darkMode() {
-    // Seleciona a primeira imagem encontrada no documento HTML
+
     let minhaImagem = document.querySelector('img');
 
-    // Seleciona o elemento <body> do documento HTML
+
     var element = document.body;
 
-    /* Alterna a classe "dark-mode" no elemento <body>, ou seja, adiciona a classe se não estiver 
-      presente e remove se estiver presente */
+
     element.classList.toggle("dark-mode");
 
-    // Obtém o atributo 'src' da imagem selecionada
+
     let meuSrc = minhaImagem.getAttribute('src');
 
     // Verifica se o atributo 'src' atual da imagem é igual a uma URL específica

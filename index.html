@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,31 +10,45 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Meu Site</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation"><!--ver explição no fim do cód.-->
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">Página Principal</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="page1.html">Página 1</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="page2.html">Página 2</a>
                     </li>
                 </ul>
+                <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()"
+                    style="width: 40px" />
             </div>
-            <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()"
-                style="width: 40px" />
-
         </nav>
     </header>
+    <main class="principal">
+        <div class="container__esquerdo">
+            <h2>Conheça as melhores praias</h2>
+
+        </div>
+        <div class="container__direito">
+            <h3>Bem vindo ao nosso site </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi adipisci dolor nemo accusantium
+                recusandae molestiae eos tempore ducimus earum consequatur?</p>
+
+        </div>
+    </main>
+
+
 
     <script src="darkMode.js"></script>
 </body>
