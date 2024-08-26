@@ -5798,7 +5798,7 @@ a.badge-dark:focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: black;
   border-radius: .3rem
 }
 
@@ -11476,5 +11476,8 @@ a.text-dark:hover {
 }
 
 
+.contato-container{
+padding: 50px 0;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */

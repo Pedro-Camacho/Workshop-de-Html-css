@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="estiloUm.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Praiou!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Planos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="page3.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png" onclick="darkMode()"
+                style="width: 40px" />
+        </nav>
+    </header>
+
+    <div class="contato-container">
+        <h3>Contato</h3>
+        <p>Entre em contato conosco para mais informações</p>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select de exemplo</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Exemplo de select múltiplo</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </div>
+
+
+
+        <script src="darkMode.js"></script>
+</body>
+
+</html>
